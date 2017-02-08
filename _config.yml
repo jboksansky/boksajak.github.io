@@ -1,0 +1,14 @@
+# Site settings
+title: GFX Caffeinist Blog
+email: jakub.boksansky@gmail.com
+description: I make the virtual world a better place.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://boksajak.github.io" # the base hostname & protocol for your site
+twitter_username: boksajak
+github_username:  boksajak
+repository: boksajak/boksajak.github.io
+
+links:
+  - github: "https://github.com/boksajak/"
+  - twitter: "https://twitter.com/boksajak/"
+  - reddit: "https://www.reddit.com/user/boksajak/"
