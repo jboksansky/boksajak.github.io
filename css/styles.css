@@ -949,16 +949,7 @@ ul ul {
 .img-thumb > a {
   border-bottom: none !important;
 }
- 
-@media screen and (max-width: 600px) {
-  .biocolumnleft {
-    width: 100%;
-  }
-  .biocolumnright {
-    width: 100%;
-  }
-}
-
+     
   .biocolumnleft {
     float: left; 
     width: 25%;
@@ -970,3 +961,14 @@ ul ul {
     padding-top: 10px;
   }
       
+@media screen and (max-width: 600px) {
+  .biocolumnleft {
+    width: 100%;
+  }
+  .biocolumnright {
+    width: 100%;
+    padding-left: 0px; 
+    padding-top: 10px;
+  }
+}
+
