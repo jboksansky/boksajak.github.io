@@ -950,13 +950,6 @@ ul ul {
   border-bottom: none !important;
 }
  
-  .biocolumnleft {
-    float: left; width: 25%;
-  }
-  .biocolumnright {
-    float: left; width: 75%; padding-left: 50px; padding-top: 10px;
-  }
-      
 @media screen and (max-width: 600px) {
   .biocolumnleft {
     width: 100%;
@@ -965,3 +958,15 @@ ul ul {
     width: 100%;
   }
 }
+
+  .biocolumnleft {
+    float: left; 
+    width: 25%;
+  }
+  .biocolumnright {
+    float: left; 
+    width: 75%; 
+    padding-left: 50px; 
+    padding-top: 10px;
+  }
+      
