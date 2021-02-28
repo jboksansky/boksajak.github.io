@@ -2,41 +2,43 @@
 layout: default
 title: GFX Caffeinist Blog
 ---
-
+  
 <h2>About Me</h2>
 
-<div style="display: inline;">
-	<img src="../images/me.jpg" style="float:left; max-width: 25%;">
-    <div style="float: left; width: 100%; margin: 5px;">
-	<a href="https://twitter.com/boksajak">
-		<img src="../images/tweet.png" style="float:left; margin: 5px;">
-	</a>
+<div>
+  <div style="float: left; width: 25%;">
+    <img src="../images/me.jpg" style="float:left;">
+  </div>
+  <div style="float: left; width: 75%; padding-left: 50px; padding-top: 10px;">
+    I'm a Computer Graphics Engineer at NVIDIA, working on game titles, engines, and computer graphics research.
+    My primary focus is on problems related to emerging real-time ray tracing - efficient sampling, denoising and optimization.
+    I hold a Master's degree in computer graphics from Czech Technical University in Prague, where I also worked as a researcher.
+    In my free time I enjoy playing guitar, analog photography, and travelling.
+  </div>
+</div>
+       
+<div style="content: ''; display: table; clear: both;">
 
-	<a href="https://scholar.google.com/citations?user=V9hSGzkAAAAJ">
-		<img src="../images/gscholar.png" style="float:left; margin: 5px;">
-	</a>    
+  <div style="margin-top: 10px;">
+  	<a href="https://twitter.com/boksajak">
+  		<img src="../images/tweet.png" style="float:left; margin: 5px;">
+  	</a>
+  
+  	<a href="https://scholar.google.com/citations?user=V9hSGzkAAAAJ">
+  		<img src="../images/gscholar.png" style="float:left; margin: 5px;">
+  	</a>    
+      
+  	<a href="https://www.linkedin.com/in/jakub-bok%C5%A1ansk%C3%BD-a82a9287/">
+  		<img src="../images/linkedin.png" style="float:left; margin: 5px;">
+  	</a>   
+  
+  	<a href="https://github.com/boksajak">
+  		<img src="../images/github.png" style="float:left; margin: 5px;">
+  	</a>  
+  </div>
     
-	<a href="https://www.linkedin.com/in/jakub-bok%C5%A1ansk%C3%BD-a82a9287/">
-		<img src="../images/linkedin.png" style="float:left; margin: 5px;">
-	</a>   
-
-	<a href="https://github.com/boksajak">
-		<img src="../images/github.png" style="float:left; margin: 5px;">
-	</a>  
-</div>
-</div>
-
-<div style="display: inline; top: 20px; left: 50px; position: relative;">
-
-I'm a Computer Graphics Engineer at NVIDIA, working on game titles, engines, and computer graphics research.
-My primary focus is on problems related to emerging real-time ray tracing - efficient sampling, denoising and optimization.
-I hold a Master's degree in computer graphics from Czech Technical University in Prague, where I also worked as a researcher.
-In my free time I enjoy playing guitar, analog photography, and travelling.
-
-</div>  
-           
-
-            
+</div> 
+         
 <h2>Posts</h2>
 {% for page in site.posts %}
     <article>
