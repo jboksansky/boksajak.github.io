@@ -635,7 +635,7 @@ strong {
 }
 
 .wrapper {
-  max-width: 650px;
+  max-width: 850px;
   margin: 0 auto;
   position: relative;
   padding: 0 20px;
@@ -716,7 +716,7 @@ dt {
 
 .wrapper {
   width: 100%;
-  max-width: 650px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -765,7 +765,7 @@ section ol li {
 section #title {
   border: 0;
   outline: none;
-  margin: 0 0 50px 0;
+  margin: 0 0 5px 0;
   padding: 0 0 5px 0;
 }
 section #title h1 {
