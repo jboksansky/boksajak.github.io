@@ -949,17 +949,18 @@ ul ul {
 .img-thumb > a {
   border-bottom: none !important;
 }
-     
-  .biocolumnleft {
+
+.biocolumnleft {
     float: left; 
     width: 25%;
-  }
-  .biocolumnright {
+}
+
+.biocolumnright {
     float: left; 
     width: 75%; 
     padding-left: 50px; 
     padding-top: 10px;
-  }
+}
       
 @media screen and (max-width: 600px) {
   .biocolumnleft {
