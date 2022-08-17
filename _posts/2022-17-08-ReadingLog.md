@@ -21,8 +21,15 @@ permalink: /blog/:title
 
 | Title                  |    Journal         |   Publication Year    |   
 | ---------------------- | ------------------ |  ------------------   |
-| *August 2022 (3/4)*    |                    |                       |
-|     RAY TRACED LEVEL OF DETAIL CROSS-FADES MADE EASY       |  RTG2      | 2021
+| **August 2022 (3/4)**    |                    |                       |
+| Ray Traced Level of Detail Cross-Fades Made Easy       |  RTG2      | 2021     |
+| The Shader Binding Table Demystified                   |  RTG2      | 2021     |
+| Temporally Reliable Motion Vectors for Better Use of Temporal Information      |  RTG2      | 2021     |
+| Lightweight Multidimensional Adaptive Sampling for GPU Ray Tracing     |  JCGT      | 2022     |
+| Combining Analytic Direct Illumination and Stochastic Shadows     |  Siggraph      | 2018     |
+		
+
+
 
 </div>
          
